@@ -70,9 +70,9 @@ module.exports = (env, argv) => {
 
         plugins: [
             // Copy our static assets to the final build
-            new CopyPlugin({
-                patterns: [{ from: 'static/' }],
-            }),
+            // new CopyPlugin({
+            //     patterns: [{ from: 'static/' }],
+            // }),
 
             // Make an index.html from the template
             new HtmlWebpackPlugin({
